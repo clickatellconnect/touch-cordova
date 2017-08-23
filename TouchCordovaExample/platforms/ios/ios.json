@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.clickatell.plugin": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        },
+        "me.tonny.cordova.plugins.multidex": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "com.clickatell.plugin.plugin",
+            "file": "plugins/com.clickatell.plugin/www/touch.js",
+            "pluginId": "com.clickatell.plugin",
+            "clobbers": [
+                "Touch"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "com.clickatell.plugin": "0.0.18",
+        "me.tonny.cordova.plugins.multidex": "0.1.0"
+    }
+}

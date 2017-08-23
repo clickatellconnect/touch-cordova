@@ -1,0 +1,31 @@
+{
+  "name": "Touch",
+  "version": "0.0.2",
+  "description": "Plugin for integration Touch SDK with Cordova apps",
+  "cordova": {
+    "id": "com.clickatell.plugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.5.0"
+    }
+  ],
+  "author": {
+    "name": "Clickatell"
+  },
+  "license": "ISC",
+  "_id": "Touch@0.0.2",
+  "scripts": {},
+  "_shasum": "a0ae88c79140bd003a5aac9ac2094bcaaef1bdb4",
+  "_from": "moduleTouch/touch-plugin",
+  "_resolved": "file:moduleTouch/touch-plugin"
+}

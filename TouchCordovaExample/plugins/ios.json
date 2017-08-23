@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.clickatell.plugin": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        },
+        "me.tonny.cordova.plugins.multidex": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        }
+    },
+    "dependent_plugins": {}
+}

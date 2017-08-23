@@ -1,0 +1,33 @@
+{
+    "name": "com.touch.touchcordovaexample",
+    "displayName": "TouchCordovaExample",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "Touch": "file:///D:\\Ihor\\touch-plugin",
+        "com.clickatell.plugin": "..\\touch-plugin",
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "^4.4.0",
+        "cordova-multidex": "file:///D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+        "me.tonny.cordova.plugins.multidex": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+        "react": "15.3.1-rc.2",
+        "react-native": "0.45.1-rc.0",
+        "touch-plugin": "file:///D:\\Projects\\Android\\ClickatellProjects\\touch-plugin"
+    },
+    "cordova": {
+        "plugins": {
+            "com.clickatell.plugin": {},
+            "me.tonny.cordova.plugins.multidex": {}
+        },
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    }
+}

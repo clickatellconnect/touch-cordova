@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+        "spec": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+        "type": "directory"
+      },
+      "D:\\Ihor\\TouchCordovaExample\\node_modules"
+    ]
+  ],
+  "_from": "..\\..\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+  "_id": "cordova-multidex@1.0.0",
+  "_inCache": true,
+  "_location": "/cordova-multidex",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+    "spec": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:..\\..\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+  "_shasum": "08b66c1e171ee29393c872e652944b9506ec5cda",
+  "_shrinkwrap": null,
+  "_spec": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+  "_where": "D:\\Ihor\\TouchCordovaExample\\node_modules",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/jwall149/cordova-multidex/issues"
+  },
+  "dependencies": {},
+  "description": "This plugin do and only do add the Multidex to AndroidManifest.xml following rules in: http://developer.android.com/tools/building/multidex.html",
+  "devDependencies": {},
+  "gitHead": "be54d0ed263911e4b0bf8f21e52df1dba4ca94ea",
+  "homepage": "https://github.com/jwall149/cordova-multidex#readme",
+  "license": "ISC",
+  "main": "updateMultidexManifest.js",
+  "name": "cordova-multidex",
+  "optionalDependencies": {},
+  "readme": "# Multidex plugins for cordova\r\n\r\nThis plugin do and only do add the Multidex to AndroidManifest.xml following rules in: http://developer.android.com/tools/building/multidex.html\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwall149/cordova-multidex.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

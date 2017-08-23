@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.touch.touchCordovaExample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TouchCordovaExample</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="clickatell_token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZjJiYzkwZjE3NGE0YWI5YWZiMjYwM2U0ZWYzOGExYiIsInR5cGUiOiJSRUZSRVNIIiwiaWF0IjoxNDk0NDk1OTAwfQ.LL09EwR20ECQ4aDH1cK1dA2kCR4OTgAM9ARkf8DH0IU" />
+    <engine name="android" spec="^6.2.3" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="com.clickatell.plugin" spec="..\touch-plugin" />
+    <plugin name="me.tonny.cordova.plugins.multidex" spec="D:\Projects\Android\ClickatellProjects\cordova-multidex" />
+</widget>
