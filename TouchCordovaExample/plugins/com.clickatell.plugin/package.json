@@ -1,75 +1,32 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-        "spec": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-        "type": "directory"
-      },
-      "D:\\Ihor\\TouchCordovaExample\\node_modules"
-    ]
-  ],
-  "_from": "..\\..\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-  "_id": "touch-plugin@0.0.2",
-  "_inCache": true,
-  "_location": "/touch-plugin",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-    "spec": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-    "type": "directory"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "file:..\\..\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-  "_shasum": "054fabdb0a5d000e0d8d7214c680ce849b385d07",
-  "_shrinkwrap": null,
-  "_spec": "D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
-  "_where": "D:\\Ihor\\TouchCordovaExample\\node_modules",
-  "author": {
-    "name": "Clickatell"
-  },
-  "bugs": {
-    "url": "https://gitlab.com/alexgrog/touch-plugin/issues"
-  },
+  "name": "Touch",
+  "version": "0.0.2",
+  "description": "Plugin for integration Touch SDK with Cordova apps",
   "cordova": {
     "id": "com.clickatell.plugin",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
-  "dependencies": {},
-  "description": "Plugin for integration Touch SDK with Cordova apps",
-  "devDependencies": {},
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
   "engines": [
     {
       "name": "cordova",
       "version": ">=6.5.0"
     }
   ],
-  "gitHead": "14bae849320e5c70b1e48edeb691ec3fa4052c71",
-  "homepage": "https://gitlab.com/alexgrog/touch-plugin#README",
-  "keywords": [
-    "ecosystem:cordova",
-    "cordova-android"
-  ],
-  "license": "ISC",
-  "name": "touch-plugin",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/alexgrog/touch-plugin.git"
+  "author": {
+    "name": "Clickatell"
   },
-  "version": "0.0.2"
+  "license": "ISC",
+  "_id": "Touch@0.0.2",
+  "scripts": {},
+  "_shasum": "ffe3918358d621fc26de6abdceb5a8f00d5eb258",
+  "_from": "../touch-plugin",
+  "_resolved": "file:../touch-plugin",
+  "readme": "ERROR: No README data found!"
 }

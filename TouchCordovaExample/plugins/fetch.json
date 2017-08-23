@@ -1,16 +1,24 @@
 {
-    "com.clickatell.plugin": {
-        "source": {
-            "type": "local",
-            "path": "D:\\Ihor\\TouchCordovaExample\\node_modules\\touch-plugin"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "me.tonny.cordova.plugins.multidex": {
         "source": {
             "type": "local",
             "path": "D:\\Ihor\\TouchCordovaExample\\node_modules\\cordova-multidex"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-cocoapod-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-cocoapod-support@^1.3.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.clickatell.plugin": {
+        "source": {
+            "type": "local",
+            "path": "/Users/ihorrapalyuk/Documents/Projects/CordovaPlugin/TouchCordovaExample/node_modules/Touch"
         },
         "is_top_level": true,
         "variables": {}

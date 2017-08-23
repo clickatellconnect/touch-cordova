@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+use_frameworks!
+target 'TouchCordovaExample' do
+	pod 'SDWebImage'
+	pod 'Alamofire'
+	pod 'Bond'
+	pod 'SQLite.swift'
+	pod 'Yoga', :path => '/usr/local/lib/node_modules/react-native/ReactCommon/yoga'
+	pod 'React', :path => '/usr/local/lib/node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTText',
+    'RCTWebSocket',
+    'BatchedBridge',
+    'DevSupport',
+    'RCTLinkingIOS'
+    ]
+
+	pod 'RNSVG', :git => 'https://github.com/react-native-community/react-native-svg', :tag => '5.1.7'
+	pod 'XMPPFramework', :git => 'https://github.com/robbiehanson/XMPPFramework.git', :branch => 'master'
+end

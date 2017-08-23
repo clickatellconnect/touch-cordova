@@ -3,7 +3,7 @@
         id="com.clickatell.plugin"
         version="0.0.18">
 
-    <name>Clickatell</name>
+    <name>Touch</name>
 
     <engines>
         <engine name="cordova" version=">=6.5.0"/>
@@ -11,7 +11,7 @@
 
     <asset src="www/touch.js" target="js/touch.js"/>
 
-    <js-module src="www/touch.js" name="plugin">
+    <js-module src="www/touch.js" name="Touch">
         <clobbers target="Touch"/>
     </js-module>
 
@@ -27,6 +27,16 @@
         <source-file src="src/android/com/clickatell/plugin/Touch.java" target-dir="src/com/clickatell/plugin/"/>
         <source-file src="touch-sdk-android" target-dir="src/"/>
         <framework src="touch.gradle" custom="true" type="gradleReference" />
+    </platform>
+    
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Touch">
+                <param name="ios-package" value="Touch" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Touch.h" />
+        <source-file src="src/ios/Touch.m" />
     </platform>
 
 </plugin>

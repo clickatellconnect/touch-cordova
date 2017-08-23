@@ -4,10 +4,24 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Touch\"><param name=\"ios-package\" value=\"Touch\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "com.clickatell.plugin": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        },
+        "cordova-plugin-cocoapod-support": {
             "PACKAGE_NAME": "com.touch.touchCordovaExample"
         },
         "me.tonny.cordova.plugins.multidex": {
@@ -17,7 +31,7 @@
     "dependent_plugins": {},
     "modules": [
         {
-            "id": "com.clickatell.plugin.plugin",
+            "id": "com.clickatell.plugin.Touch",
             "file": "plugins/com.clickatell.plugin/www/touch.js",
             "pluginId": "com.clickatell.plugin",
             "clobbers": [
@@ -27,6 +41,7 @@
     ],
     "plugin_metadata": {
         "com.clickatell.plugin": "0.0.18",
+        "cordova-plugin-cocoapod-support": "1.3.0",
         "me.tonny.cordova.plugins.multidex": "0.1.0"
     }
 }

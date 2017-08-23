@@ -18,17 +18,20 @@
         }
     },
     "installed_plugins": {
-        "com.clickatell.plugin": {
+        "me.tonny.cordova.plugins.multidex": {
             "PACKAGE_NAME": "com.touch.touchCordovaExample"
         },
-        "me.tonny.cordova.plugins.multidex": {
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        },
+        "com.clickatell.plugin": {
             "PACKAGE_NAME": "com.touch.touchCordovaExample"
         }
     },
     "dependent_plugins": {},
     "modules": [
         {
-            "id": "com.clickatell.plugin.plugin",
+            "id": "com.clickatell.plugin.Touch",
             "file": "plugins/com.clickatell.plugin/www/touch.js",
             "pluginId": "com.clickatell.plugin",
             "clobbers": [
@@ -37,7 +40,8 @@
         }
     ],
     "plugin_metadata": {
-        "com.clickatell.plugin": "0.0.18",
-        "me.tonny.cordova.plugins.multidex": "0.1.0"
+        "me.tonny.cordova.plugins.multidex": "0.1.0",
+        "cordova-plugin-cocoapod-support": "1.3.0",
+        "com.clickatell.plugin": "0.0.18"
     }
 }

@@ -10,20 +10,22 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
-        "Touch": "file:///D:\\Ihor\\touch-plugin",
-        "com.clickatell.plugin": "..\\touch-plugin",
+        "Touch": "0.0.2",
         "cordova-android": "^6.2.3",
         "cordova-ios": "^4.4.0",
         "cordova-multidex": "file:///D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
+        "cordova-plugin-cocoapod-support": "^1.3.0",
         "me.tonny.cordova.plugins.multidex": "D:\\Projects\\Android\\ClickatellProjects\\cordova-multidex",
         "react": "15.3.1-rc.2",
         "react-native": "0.45.1-rc.0",
-        "touch-plugin": "file:///D:\\Projects\\Android\\ClickatellProjects\\touch-plugin"
+        "touch-plugin": "file:///D:\\Projects\\Android\\ClickatellProjects\\touch-plugin",
+        "com.clickatell.plugin": "/Users/ihorrapalyuk/Documents/Projects/CordovaPlugin/touch-plugin"
     },
     "cordova": {
         "plugins": {
-            "com.clickatell.plugin": {},
-            "me.tonny.cordova.plugins.multidex": {}
+            "me.tonny.cordova.plugins.multidex": {},
+            "cordova-plugin-cocoapod-support": {},
+            "com.clickatell.plugin": {}
         },
         "platforms": [
             "android",

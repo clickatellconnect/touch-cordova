@@ -1,4 +1,4 @@
-cordova.define("com.clickatell.plugin.plugin", function(require, exports, module) {
+cordova.define("com.clickatell.plugin.Touch", function(require, exports, module) {
 /*global cordova, module*/
 
 module.exports = {

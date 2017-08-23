@@ -7,10 +7,13 @@
         "files": {}
     },
     "installed_plugins": {
-        "com.clickatell.plugin": {
+        "me.tonny.cordova.plugins.multidex": {
             "PACKAGE_NAME": "com.touch.touchCordovaExample"
         },
-        "me.tonny.cordova.plugins.multidex": {
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "com.touch.touchCordovaExample"
+        },
+        "com.clickatell.plugin": {
             "PACKAGE_NAME": "com.touch.touchCordovaExample"
         }
     },
