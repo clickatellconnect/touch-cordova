@@ -9,6 +9,7 @@ cordova plugin add “path to plugin”\touch-plugin
 3. Due to that fact that Touch SDK exceeds methods limit it is required to add multidex support to your app, doc can be found here - https://developer.android.com/studio/build/multidex.html.
 
 For Cordova apps you could use this plugin https://github.com/jwall149/cordova-multidex
+
 4. Before you run your app, you'll need to add your Clickatell token to config.xml .
 <preference name="clickatell_token" value="your token here" />
 Now installation process is finished.
