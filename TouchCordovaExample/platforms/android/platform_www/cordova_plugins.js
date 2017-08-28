@@ -14,7 +14,7 @@ module.exports.metadata =
 {
     "me.tonny.cordova.plugins.multidex": "0.1.0",
     "cordova-plugin-cocoapod-support": "1.3.0",
-    "com.clickatell.plugin": "0.0.18"
+    "com.clickatell.plugin": "0.0.19"
 };
 // BOTTOM OF METADATA
 });

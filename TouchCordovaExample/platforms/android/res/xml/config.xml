@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.touch.touchCordovaExample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Touch">
+        <param name="android-package" value="com.clickatell.plugin.Touch" />
+        <param name="onload" value="true" />
+    </feature>
     <name>TouchCordovaExample</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -18,8 +22,4 @@
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="clickatell_token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZjJiYzkwZjE3NGE0YWI5YWZiMjYwM2U0ZWYzOGExYiIsInR5cGUiOiJSRUZSRVNIIiwiaWF0IjoxNDk0NDk1OTAwfQ.LL09EwR20ECQ4aDH1cK1dA2kCR4OTgAM9ARkf8DH0IU" />
-    <feature name="Touch">
-        <param name="android-package" value="com.clickatell.plugin.Touch" />
-        <param name="onload" value="true" />
-    </feature>
 </widget>

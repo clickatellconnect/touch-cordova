@@ -18,7 +18,7 @@
     "com.clickatell.plugin": {
         "source": {
             "type": "local",
-            "path": "/Users/ihorrapalyuk/Documents/Projects/CordovaPlugin/TouchCordovaExample/node_modules/Touch"
+            "path": "..\\touch-plugin"
         },
         "is_top_level": true,
         "variables": {}

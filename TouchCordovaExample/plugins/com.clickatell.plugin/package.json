@@ -25,8 +25,7 @@
   "license": "ISC",
   "_id": "Touch@0.0.2",
   "scripts": {},
-  "_shasum": "ffe3918358d621fc26de6abdceb5a8f00d5eb258",
-  "_from": "../touch-plugin",
-  "_resolved": "file:../touch-plugin",
-  "readme": "ERROR: No README data found!"
+  "_shasum": "a0ae88c79140bd003a5aac9ac2094bcaaef1bdb4",
+  "_from": "moduleTouch/touch-plugin",
+  "_resolved": "file:moduleTouch/touch-plugin"
 }

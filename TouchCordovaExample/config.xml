@@ -24,8 +24,8 @@
     </platform>
     <preference name="clickatell_token" value="eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZjJiYzkwZjE3NGE0YWI5YWZiMjYwM2U0ZWYzOGExYiIsInR5cGUiOiJSRUZSRVNIIiwiaWF0IjoxNDk0NDk1OTAwfQ.LL09EwR20ECQ4aDH1cK1dA2kCR4OTgAM9ARkf8DH0IU" />
     <engine name="android" spec="^6.2.3" />
-    <plugin name="me.tonny.cordova.plugins.multidex" spec="D:\Projects\Android\ClickatellProjects\cordova-multidex" />
-    <plugin name="com.clickatell.plugin" spec="/Users/ihorrapalyuk/Documents/Projects/CordovaPlugin/touch-plugin" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="com.clickatell.plugin" spec="..\touch-plugin" />
     <plugin name="cordova-plugin-cocoapod-support" spec="^1.3.0" />
-    <engine name="ios" spec="~4.4.0" />
+    <plugin name="me.tonny.cordova.plugins.multidex" spec="D:\Projects\Android\ClickatellProjects\cordova-multidex" />
 </widget>

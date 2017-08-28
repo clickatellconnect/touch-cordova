@@ -1,6 +1,7 @@
 package com.clickatell.plugin;
 
 import org.apache.cordova.*;
+import android.content.Intent;
 import org.json.JSONArray;
 import org.json.JSONException;
 import com.clickatell.chatsecure.androidsdk.sdk2.TouchSdk;
@@ -12,6 +13,8 @@ import com.clickatell.chatsecure.androidsdk.data.model.ChatModel;
 import com.clickatell.chatsecure.androidsdk.sdk2.PersistenceService;
 import com.clickatell.chatsecure.androidsdk.sdk2.api.ApiCall;
 import com.clickatell.chatsecure.androidsdk.sdk2.api.Callback;
+import com.clickatell.chatsecure.androidsdk.utils.Configuration;
+import com.clickatell.chatsecure.androidsdk.services.XMPPService;
 
 import java.util.Arrays;
 import java.util.List;
@@ -31,7 +34,9 @@ public class Touch extends CordovaPlugin {
         String clickatellToken = preferences.getString("clickatell_token", "");
         Log.v(TAG, "clickatellToken " + clickatellToken);
         TouchSdk.LOG = true;
-        TouchSdk.install(mActivity.getApplication(), clickatellToken);
+        Configuration configuration = new Configuration(mActivity.getApplication());
+        configuration.selectedEnvironment().setToken(clickatellToken);
+        TouchSdk.getInstance().install(mActivity.getApplication(), configuration);
     }
 
     @Override
@@ -45,7 +50,7 @@ public class Touch extends CordovaPlugin {
     }
 
     private void fetchTenants(final int tenantIndex) {
-        ApiCall<List<Tenant>> apiCall = TouchSdk.service().apiService().tenants();
+        ApiCall<List<Tenant>> apiCall = TouchSdk.getInstance().service().tenants();
         apiCall.enqueue(new Callback<List<Tenant>>() {
             @Override
             public void onSuccess(@NonNull List<Tenant> tenants) {
@@ -63,6 +68,11 @@ public class Touch extends CordovaPlugin {
 
         //To cancel request(e.g, when activity/fragment is no longer available)
         //apiCall.cancel();
+    }
+
+    @Override
+    public void onDestroy() {
+        mActivity.stopService(new Intent(mActivity, XMPPService.class));
     }
 
 }

@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -15,9 +14,9 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		AD869CEEF98E49309145F1F3 /* Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C9B3640E764321AD0C652D /* Touch.m */; };
 		D7E8C1C21F4D9549002DEAFD /* TouchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E8C1C11F4D9549002DEAFD /* TouchSDK.framework */; };
 		D7E8C1C31F4D9549002DEAFD /* TouchSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7E8C1C11F4D9549002DEAFD /* TouchSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6AE097ED01D433987D971D0 /* Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9B7B943F5C44E1868D9F0F /* Touch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +59,9 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TouchCordovaExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0C1B5FCFA8DD4B35BF5CEF0F /* Touch.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = Touch.h; path = com.clickatell.plugin/Touch.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* TouchCordovaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchCordovaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23C9B3640E764321AD0C652D /* Touch.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = Touch.m; path = com.clickatell.plugin/Touch.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
@@ -83,6 +80,8 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = TouchCordovaExample/config.xml; sourceTree = "<group>"; };
+		6D9B7B943F5C44E1868D9F0F /* Touch.m */ = {isa = PBXFileReference; name = "Touch.m"; path = "com.clickatell.plugin/Touch.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		36A7B783F79C4B5DB690C3DA /* Touch.h */ = {isa = PBXFileReference; name = "Touch.h"; path = "com.clickatell.plugin/Touch.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,8 +191,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				23C9B3640E764321AD0C652D /* Touch.m */,
-				0C1B5FCFA8DD4B35BF5CEF0F /* Touch.h */,
+				6D9B7B943F5C44E1868D9F0F /* Touch.m */,
+				36A7B783F79C4B5DB690C3DA /* Touch.h */,
 			);
 			name = Plugins;
 			path = TouchCordovaExample/Plugins;
@@ -373,7 +372,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				AD869CEEF98E49309145F1F3 /* Touch.m in Sources */,
+				A6AE097ED01D433987D971D0 /* Touch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
