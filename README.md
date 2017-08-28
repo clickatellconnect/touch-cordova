@@ -1,6 +1,6 @@
 # Touch Cordova
 
-##Cordova sample application
+## Cordova sample application
 
 To use Touch SDK in a Cordova project, you will use cordova plugin
 1. Use touch-plugin from this repository
@@ -13,7 +13,7 @@ For Cordova apps you could use this plugin https://github.com/jwall149/cordova-m
 <preference name="clickatell_token" value="your token here" />
 Now installation process is finished.
 
-##Public API
+## Public API
 
 To start chat screen with selected tenant, you have to run such code
 
