@@ -12,8 +12,8 @@ For Cordova apps you could use this plugin https://github.com/jwall149/cordova-m
 
 4. Before you run your app, you'll need to add your Clickatell token to config.xml .
 ```xml
-```
 <preference name="clickatell_token" value="your token here" />
+```
 Now installation process is finished.
 
 ## Public API
