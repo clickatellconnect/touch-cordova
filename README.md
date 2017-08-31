@@ -11,13 +11,15 @@ cordova plugin add “path to plugin”\touch-plugin
 For Cordova apps you could use this plugin https://github.com/jwall149/cordova-multidex
 
 4. Before you run your app, you'll need to add your Clickatell token to config.xml .
+```xml
+```
 <preference name="clickatell_token" value="your token here" />
 Now installation process is finished.
 
 ## Public API
 
 To start chat screen with selected tenant, you have to run such code
-
+```JavaScript
 window.Touch.start_chat(tenant_index, success, failure);
-
+```
 Where tenant_index is index in the received list of tenants
